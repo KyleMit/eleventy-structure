@@ -1,0 +1,19 @@
+{% extends 'base.njk' %}
+
+{% block styles %}
+    <style>
+        body {
+            background: yellow;
+        }
+    </style>
+{% endblock %}
+
+
+{% block content %}
+    {{ content | safe }}
+{% endblock %}
+
+
+{% block prefooter %}
+    Page Footer
+{% endblock %}
